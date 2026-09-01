@@ -24,6 +24,5 @@ This tool only scores a password's *composition* — it doesn't check it against
 
 ## Possible Improvements
 
-- Add a strength label (e.g. "Weak", "Medium", "Strong") instead of just a number
 - Check against a list of commonly used/breached passwords
 - Penalize repeated characters or simple sequences (e.g. "1234", "aaaa")
