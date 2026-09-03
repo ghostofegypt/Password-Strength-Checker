@@ -3,7 +3,7 @@ def password_strength_checker():
     special_characters = "!@#$%^&*()-_=+[]{}|;:',.<>?/`~"
     strength = 0
 
-    if len(password) > 8:
+    if len(password) >= 8:
         strength += 1
 
     if any(c.isupper() for c in password):
